@@ -394,7 +394,7 @@ void application::run(){
 	}
 
 	/* deallocate .. exiting */
-	//m_ui->clear();
+	m_ui->clear();
 	m_pascal->clear();
 	clear();
 	/**********************/
