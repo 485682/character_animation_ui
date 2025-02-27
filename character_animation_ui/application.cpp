@@ -358,9 +358,9 @@ void application::run(){
 		/*stat display **************************************************/
 		if(second >=1.0f){
 			_string stats =_string("fps : ")+ _utility::inttostring(frames);
-			fps_control->settext(" ");
+			fps_control->settext(stats.m_data);
 			stats =_string("mspf: ")+ _utility::floattostring(m_last_frame_milliseconds,true);
-			mspf_control->settext(" ");
+			mspf_control->settext(stats.m_data);
 			second = 0.0f;
 			frames = 0;
 		}
