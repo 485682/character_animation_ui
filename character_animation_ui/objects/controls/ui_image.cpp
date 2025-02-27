@@ -71,6 +71,7 @@ bool ui_image::init(){
 
 void ui_image::clear(){
 	application_releasecom(m_background_vertex_buffer);
+	application_releasecom(m_image_texture);
 }
 
 bool ui_image::update(){
