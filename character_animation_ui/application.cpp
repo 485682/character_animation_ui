@@ -381,8 +381,8 @@ void application::run(){
 			application_error_hr(_api_manager->m_d3ddevice->Clear(0, 0, D3DCLEAR_TARGET | D3DCLEAR_ZBUFFER, D3DCOLOR_XRGB(255, 255, 255), 1.0f, 0));
 			application_error_hr(_api_manager->m_d3ddevice->BeginScene());
 
-			m_ui->update(); 
 			m_pascal->update();
+			m_ui->update(); 
 
 			application_error_hr(_api_manager->m_d3ddevice->EndScene());
 			application_error_hr(_api_manager->m_d3ddevice->Present(0, 0, 0, 0));
