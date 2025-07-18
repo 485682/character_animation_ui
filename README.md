@@ -1,1 +1,1 @@
-character/skeletal animation (blender,collada,directx9c)
+character/skeletal animation and 3d ui (blender,collada,directx9c)
